@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'pm';
+    src: url(../fonts/Poppins-Medium.ttf) format(truetype);
+    font-size: 500;
+}
+@font-face{
+    font-family: 'pr';
+    src: url(../fonts/Poppins-Regular.ttf) format(truetype);
+    font-size: 400;
+}
+@font-face{
+    font-family: 'ps';
+    src: url(../fonts/Poppins-SemiBold.ttf) format(truetype);
+    font-size: 600;
+}

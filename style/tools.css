@@ -1,0 +1,318 @@
+.tools{
+    margin: 200px 0 ;
+}
+
+.tools__wrap-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 90px;
+}
+
+.tools__wrap-desc-title{
+    color: #FFFFFFE5;
+    font-family: 'pm';
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+.tools__wrap-desc-text{
+    color: #FFFFFF8C;
+    font-family: 'pm' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 427px;
+    height: 60px;
+    text-align: center;
+}
+
+.tools__wrap-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.tools__wrap-cards-card-logo{
+    width: 64px;
+    height: 64px;
+}
+
+.tools__wrap-cards-card{
+    padding: 33px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 392px;
+    height: 294px;
+}
+
+.tools__wrap-cards-card:hover{
+    background: url(../img/bgcard.png);
+    transform: scale(1.1);
+}
+
+.tools__wrap-cards-card-title{
+    color: #FFFFFFC7;
+    font-family: 'pm';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    position: absolute;
+    top: 33px;
+    left: 128px;
+}
+
+.tools__wrap-cards-card-price{
+    color: #FFA5378C;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    position: absolute;
+    top: 72px;
+    left: 128px;
+}
+
+.tools__wrap-cards-card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFFFF8C;
+    width: 326px;
+    height: 60px;
+    margin: 30px 0 30px;
+}
+
+.tools__wrap-cards-card-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tools__wrap-cards-card-btns-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tools__wrap-cards-card-btns-visit{
+    color: #FFFFFF8C;
+    font-family: 'ps' , sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    background: #1E252B;
+    padding: 9px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tools__wrap-cards-card-btns-visit:hover{
+    background: #FF6E30;
+    color: #FFFFFF;
+}
+.tools__wrap-cards-card-btns-item-like{
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 7px;
+    color: #FFFFFF61;
+}
+
+.tools__wrap-cards-card-btns-item-like:hover{
+    color: #FD3B41;
+}
+
+.tools__wrap-cards-card-btns-item-add{
+    color: #FFFFFF61;
+    transition: 0.2s;
+}
+
+.tools__wrap-cards-card-btns-item-add:hover{
+    color: #FF6E30;
+}
+
+
+.tools__wrap-btn-item{
+    color: #FF6E30;
+    background: #1E252B;
+    font-family: 'pm' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border: solid #FFFFFF1A  1px;
+    border-radius: 8px;
+    padding: 17px 38px;
+    transition: 0.3s;
+}
+
+.tools__wrap-btn-item:hover{
+    background: #FF6E30;
+    color: #fff;
+}
+
+.tools__wrap-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tools__wrap-more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    padding: 55px 82px;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin-top: 200px;
+}
+
+.tools__wrap-more:hover{
+    background: url(../img/bgmore.png) no-repeat;
+}
+
+.tools__wrap-more-title{
+    color: #fff;
+    font-family: 'pm' , sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.tools__wrap-more-desc{
+    display: flex;
+    align-items: center;
+    gap: 107px;
+}
+
+.tools__wrap-more-desc-item{
+    color: #FFFFFF33;
+    transition: 0.3s;
+}
+
+.tools__wrap-more-desc-item:hover{
+    color: #FF6E30;
+}
+
+.tools__wrap-new{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.tools__wrap-new-desc-title{
+    color: #FFFFFFE5;
+    font-family: 'pm' , sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+.tools__wrap-new-desc-text{
+    color: #FFFFFF8C;
+    font-family: 'pm' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 30px 0 60px;
+    width: 427px;
+    height: 90px;
+}
+
+.tools__wrap-new-desc-btn{
+    color: #FF6E30;
+    font-family: 'pm' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    background: #1E252B;
+    border-radius: 8px;
+    padding: 16px 40px;
+    border: #FFFFFF33 solid 1px;
+    transition: 0.3s;
+}
+
+.tools__wrap-new-desc-btn:hover{
+    background: #FF6E30;
+    color: #fff;
+}
+
+.tools__wrap-new-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 600px;
+    height: 638px;
+}
+
+.tools__wrap-new-cards-card{
+    padding: 28px 22px;
+    transition: 0.3s;
+    position: relative; 
+    width: 288px;
+    height: 284px;
+}
+
+.tools__wrap-new-cards-card:hover{
+    background: url(../img/bgnew.png)  no-repeat;
+    transform: scale(1.1);
+}
+
+.tools__wrap-new-cards-card-title{
+    color: #FFFFFFE5;
+    font-family: 'pm';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    position: absolute;
+    top: 28px ;
+    left: 116px;
+}
+
+.tools__wrap-new-cards-card-price{
+    color: #FFA537;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    position: absolute;
+    top: 67px;
+    left: 116px;
+}
+
+.tools__wrap-new-cards-card-text{
+    color: #FFFFFFC7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 246px;
+    height: 60px;
+    margin: 30px 0;
+}
+
+.tools__wrap-new-cards-card-btns-visit{
+    color: #FFFFFF8C;
+    font-family: 'ps' , sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 9px 36px;
+    border: none;
+    background: #1E252B;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.tools__wrap-new-cards-card-btns-visit:hover{
+    color: #fff;
+    background: #FF6E30;
+}
